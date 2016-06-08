@@ -1,5 +1,6 @@
 # Quadrant2Azimuth
 Converts quadrant compass measurements to azimuth.
+
 By: Scott D. Hull, Field Camp 2016 (yeah, I got the quadrant compass).
 
 Boot up 'quad2azi.py' with Python 3.
