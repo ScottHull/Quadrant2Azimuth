@@ -15,10 +15,6 @@ def initialization():
         os.remove("Quad2Adi_Out.csv")
     else:
         pass
-    if "temp.csv" in os.listdir(home_dir_list[0]):
-        os.remove("temp.csv")
-    else:
-        pass
     output_file = open("Quad2Adi_Out.csv", 'a')
     workbook = input(">>> ")
     if os.path.isfile(workbook):
