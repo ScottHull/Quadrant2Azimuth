@@ -3,7 +3,7 @@ Converts quadrant compass measurements to azimuth.
 
 By: Scott D. Hull, Field Camp 2016 (yeah, I got the quadrant compass).
 
-Boot up 'quad2azi.py' with Python 3.
+Boot up 'quad2azi.py' with Python 3 via the command terminal.
 
 Enter in a '.csv' file existing in the same directory as the python script at the prompt, formatted so that your quadrant measurements are in a single column, like in the following example:
 
