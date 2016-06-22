@@ -97,6 +97,8 @@ def initialization():
                 output_file.write("%s\n" % writethis)
         except:
             print("Error with attitude: " + str(i) + " ...")
+            writethis = i + ",ERROR"
+            output_file.write("%s\n" % writethis)
             pass
     output_file.close()
     print("\nDone converting quadrant to azimuth!")
